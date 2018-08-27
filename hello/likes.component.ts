@@ -7,6 +7,7 @@ export class LikesComponent {
     }
 
     get likesCount() {
+        console.log("hello for checking branch switch");
         return this._likesCount;
     }
 
